@@ -1,0 +1,60 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form > label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form > label > input {
+  width: 360px;
+  height: 40px;
+  outline: none;
+  border-color: #808080;
+  margin-bottom: 16px;
+}
+
+.form > label > input:focus {
+  border-color: #4e75ff;
+  outline: none;
+}
+
+fieldset {
+  width: 360px;
+  height: 78px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+fieldset > label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2e2f42;
+  display: flex;
+  outline: none;
+}
+
+input[type='radio'] {
+  width: 20px;
+  height: 20px;
+}
+
+button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background: #4e75ff;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
